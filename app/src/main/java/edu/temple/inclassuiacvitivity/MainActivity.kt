@@ -17,11 +17,11 @@ class MainActivity : AppCompatActivity() {
         val numberArray = Array(20) {index -> (index +1) * 5}
 
         /* TODO Step 3: Create adapter to display items from array in Spinner */
-        //spinner.adapter = ArrayAdapter...
+        spinner.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, numberArray)
 
 
         // TODO Step 4: Change TextView's text size to the number selected in the Spinner */
-        //spinner.onItemSelectedListener = object: ...
+        spinner.onItemSelectedListener = object: ...
 
     }
 }
